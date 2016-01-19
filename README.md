@@ -11,7 +11,7 @@ Syntax:
 namespace sict{ // see rule 2 for this
    //prototypes go here
 }
-#end if
+#endif
 
 An example of this syntax for header file cars.h
 #ifndef SICT_CARS_H_
@@ -20,7 +20,7 @@ namespace sict{ // see rule 2 for this
    display cars engine power
    Void showEnginePower (int modelnumber);
 }
-#end if
+#endif
 </pre>
 Rule 2:<br />
 In this course you are to code within the namespace “sict”; The only exception is that main() will not to be defined as being in this namespace; RATHER it will be using the namespace, e.g., (“using namespace sict;”). Additionally, header files will never use any namespace what so ever; if a namespace is needed then a qualifier must be used e.g., (“sict::doSomething();”).
