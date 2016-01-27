@@ -39,11 +39,11 @@ A variable name MAY NOT begin with an _underscore as this naming convention shou
 
 E.g.
 <pre>
-_value;	//BAD
-_total;	//BAD
+int _value;	//BAD
+int _total;	//BAD
 
-value_; //GOOD
-total_; //GOOD
+int value_; //GOOD
+int total_; //GOOD
 </pre>
 
 Rule 1+2+3+4 Warning:<br />
