@@ -35,7 +35,7 @@ int x; int y; int z;	//unacceptable
 </pre>
 
 Rule 4:<br />
-A variable name MAY NOT begin with underscore '_' as this naming convenction should only be used in compiler code. Instead to slightly alter our variable names used in a class, we can end it in an underscore '_'.
+A variable name MAY NOT begin with _underscore as this naming convenction should only be used in compiler code. Instead to slightly alter our variable names used in a class, we can end it in an underscore _.
 
 E.g.
 <pre>
