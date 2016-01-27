@@ -46,6 +46,6 @@ value_; //GOOD
 total_; //GOOD
 </pre>
 
-Rule 1+2+3 Warning:<br />
+Rule 1+2+3+4 Warning:<br />
 You may find that other ways work but you must adhere to these three rules. The excuse that "it works" is completely invalid and also offends Fardad greatly. Coding in this specific namespace and the naming conventions described is analogous to real world projects that involve collaborating between many other programmers and is designed to prepare you for that environment; so just do it and you will thank Fardad later when you are working at Google. <br /><br />
 If anyone wants to add or modify this, send and email to fardad with changes. If valid, thier changes will be included. Do not forget to add "oop244 - " to the beginning of your subject line.
