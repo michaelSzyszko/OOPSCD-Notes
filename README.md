@@ -34,6 +34,18 @@ int i, j, k;		//unacceptable
 int x; int y; int z;	//unacceptable
 </pre>
 
+Rule 4:<br />
+A variable name MAY NOT begin with underscore '_' as this naming convenction should only be used in compiler code. Instead to slightly alter our variable names used in a class, we can end it in an underscore '_'.
+
+E.g.
+<pre>
+_value;	//BAD
+_total;	//BAD
+
+value_; //GOOD
+total_; //GOOD
+</pre>
+
 Rule 1+2+3 Warning:<br />
 You may find that other ways work but you must adhere to these three rules. The excuse that "it works" is completely invalid and also offends Fardad greatly. Coding in this specific namespace and the naming conventions described is analogous to real world projects that involve collaborating between many other programmers and is designed to prepare you for that environment; so just do it and you will thank Fardad later when you are working at Google. <br /><br />
 If anyone wants to add or modify this, send and email to fardad with changes. If valid, thier changes will be included. Do not forget to add "oop244 - " to the beginning of your subject line.
