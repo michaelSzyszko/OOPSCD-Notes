@@ -46,6 +46,32 @@ int value_; //GOOD
 int total_; //GOOD
 </pre>
 
+Rule 5:<br />
+Forward declaration of prototypes must use meaningful names for setting default values.
+
+E.g.
+<pre>
+void display (int type = 0);	//correct
+
+void display (int = 0); //BAD
+void display (int x = 0); //BAD
+
+//note that all three will behave exactly the same but the correct one is much easier to read and understand what it does
+//this is like a built in comment for your forgetful self or future programmers who will look at your code
+</pre>
+
+Rule 6:<br />
+Pointer declarations are to always separate the type from the variable name. For example, integer pointer is <pre>int*</pre> and your vairable is <pre> p </pre> then your pointer initialization would be <pre>int*</pre>.
+
+E.g.
+<pre>
+int _value;	//BAD
+int _total;	//BAD
+
+int value_; //GOOD
+int total_; //GOOD
+</pre>
+
 Rule 1+2+3+4 Warning:<br />
 You may find that other ways work but you must adhere to these three rules. The excuse that "it works" is completely invalid and also offends Fardad greatly. Coding in this specific namespace and the naming conventions described is analogous to real world projects that involve collaborating between many other programmers and is designed to prepare you for that environment; so just do it and you will thank Fardad later when you are working at Google. <br /><br />
 If anyone wants to add or modify this, send and email to fardad with changes. If valid, thier changes will be included. Do not forget to add "oop244 - " to the beginning of your subject line.
